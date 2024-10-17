@@ -37,6 +37,12 @@ Work experience
   * Supervisor: Quentin Cappart
   * Teaching assistant for INF 6102, a graduate course on metaheuristics. This experience helped me develop pedagogical skills, design assignments at an advanced level, and deepened my understanding of the subject through tutorials and assignment corrections.
 
+* **Jan 2023 - Present: Radio Host**
+  * CISM 89.3
+  * From January to December 2023, I co-hosted *La Croisière s'amuse*, a weekly show that became the station's third most downloaded program. I wrote and presented two 10-minute segments per week, focusing primarily on scientific themes, with a particular emphasis on explaining AI concepts. 
+  * Since January 2024, I have hosted *Silicium et Synapses*, a one-hour weekly program dedicated to the popularization of artificial intelligence, currently on pause. In this role, I interview domain experts, with a particular focus on AI ethics and safety. Many episodes have featured industry experts, facilitating in-depth discussions on societal issues.
+  * These experiences significantly strengthened my ability to communicate complex scientific concepts to a broad audience, an essential skill for a researcher dedicated to knowledge dissemination.
+
 * **Sept 2022 - Aug 2023: Lead Developer – SeaPearl.jl**
   * Supervisor: Quentin Cappart
   * Significantly improved the quality of the SeaPearl.jl project, a reinforcement learning-based constraint programming solver. Increased test coverage by 15%, created comprehensive documentation, and mentored two interns. Under my leadership, the project gained visibility with 90 GitHub stars and competed in its first solver competition.
@@ -79,7 +85,3 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
