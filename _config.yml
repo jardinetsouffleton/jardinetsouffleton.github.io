@@ -15,7 +15,7 @@ description              : &description "Researcher"
 url                      : https://leo-boisvert.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jardinetsouffleton/jardinetsouffleton.github.io"
-skin                     : "sunrise"
+ 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
@@ -81,6 +81,8 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  in_review:
+    title: 'In Review'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
