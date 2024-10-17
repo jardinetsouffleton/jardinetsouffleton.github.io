@@ -21,7 +21,7 @@ skin                     : "sunrise"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   name             : "Léo Boisvert"
   # pronouns         : # example: "she/her"  
   bio              : "LLM-based agents researcher"
