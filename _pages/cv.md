@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* PhD in 
+* PhD in Computer Engineering, Polytechnique Montréal + MILA, 2024
 * M.Sc. in Computer Engineering, Polytechnique Montréal, 2024
 * B.Sc. in Mathematics, Université de Montréal, 2020
 
