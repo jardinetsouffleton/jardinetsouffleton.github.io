@@ -83,6 +83,16 @@ publication_category:
     title: 'Conference Papers'
   in_review:
     title: 'In Review'
+  
+talks_category:
+  invited:
+    title: 'Invited Talks'
+  conferences:
+    title: 'Conference Talks'
+  workshops:
+    title: 'Workshops'
+  science_popularization:
+    title: 'Science Popularization'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"

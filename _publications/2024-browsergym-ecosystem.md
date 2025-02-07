@@ -1,7 +1,7 @@
 ---
 title: "The BrowserGym Ecosystem for Web Agent Research"
 collection: publications
-category: manuscripts
+category: in_review
 permalink: /publication/browsergym-ecosystem
 excerpt: 'arxiv'
 date: 2024-12-9
