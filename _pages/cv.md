@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[Download CV as PDF](CV_Academic.pdf)
+
 Education
 ======
 * PhD in Computer Engineering, Polytechnique Montréal + MILA, 2024
