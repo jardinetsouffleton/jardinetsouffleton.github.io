@@ -32,6 +32,10 @@ Work experience
   * Supervisor: Mehdi Louzi
   * Led technical aspects of optimizing truck routes for Intelcom, reducing required trucks by 50-75%. Managed incomplete data, developed a route optimization program, and created a visualization tool for interpreting results, improving my project management and technical communication skills.
 
+* **Jan 2023 - Present: Radio Show Host**
+  * CISM 89.3
+  * Hosted a weekly, AI-focused show an now a weekly talk show 
+
 * **Jan 2023 - Apr 2023: Teaching Assistant**
   * Polytechnique Montréal
   * Supervisor: Quentin Cappart
@@ -82,4 +86,4 @@ Teaching
   
 Service
 ======
-* AAAI reviewer (2025)
+* AAAI reviewer (2025) 
