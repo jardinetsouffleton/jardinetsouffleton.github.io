@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download CV as PDF](CV_Academic.pdf)
+[Download CV as PDF](https://github.com/jardinetsouffleton/jardinetsouffleton.github.io/tree/master/files/CV_Academic.pdf)
 
 Education
 ======
