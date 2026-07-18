@@ -6,15 +6,27 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-          {% for link in site.data.navigation.main %}
+          {% if page.lang == "fr" %}
+            {% assign home_url = "/fr/" %}
+            {% assign nav_links = site.data.navigation.main_fr %}
+          {% else %}
+            {% assign home_url = "/" %}
+            {% assign nav_links = site.data.navigation.main_en %}
+          {% endif %}
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}{{ home_url }}" aria-label="Léo Boisvert, home">{{ site.title }}</a></li>
+          {% for link in nav_links %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank" rel="noopener"{% endif %}>{{ link.title }}</a></li>
           {% endfor %}
+          {% if page.lang == "fr" %}
+            <li class="masthead__menu-item masthead__menu-item--language"><a href="{{ page.alternate_url | default: '/' }}" lang="en" hreflang="en" aria-label="View this page in English">EN</a></li>
+          {% else %}
+            <li class="masthead__menu-item masthead__menu-item--language"><a href="{{ page.alternate_url | default: '/fr/' }}" lang="fr" hreflang="fr" aria-label="Voir cette page en français">FR</a></li>
+          {% endif %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

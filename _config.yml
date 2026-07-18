@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Léo Boisvert / Personal Page"
+title                    : "Léo Boisvert"
 title_separator          : "-"
 name                     : &name "Léo Boisvert"
-description              : &description "Researcher"
+description              : &description "Researcher working on backdoors, evaluation awareness, and reliable AI agents."
 url                      : https://leo-boisvert.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jardinetsouffleton/jardinetsouffleton.github.io"
@@ -21,14 +21,14 @@ repository               : "jardinetsouffleton/jardinetsouffleton.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Léo Boisvert"
   # pronouns         : # example: "she/her"  
-  bio              : "LLM-based agents researcher"
+  bio              : "Researcher working on AI evaluation and agent safety"
   location         : "Montréal, QC, Canada"
   employer         : "ServiceNow Research"
   # uri              : # URL
-  email            : "leo.boisvert@servicenow.com" 
+  email            : "leo.boisvert@hotmail.ca"
 
   # Academic websites
   # arxiv            : # URL - Update with the correct link to your profile
@@ -233,7 +233,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 

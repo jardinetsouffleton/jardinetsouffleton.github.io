@@ -4,24 +4,28 @@
 # links. Removing a link prevents it from showing in the header, but does not
 # prevent it from being included in the site.
 
-main:
+main_en:
   - title: "Publications"
-    url: /publications/
+    url: "https://scholar.google.com/citations?user=2XdDpIgAAAAJ&hl=en"
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Media"
+    url: /media/
 
-  - title: "Teaching"
-    url: /teaching/    
-    
-  # - title: "Portfolio"
-  #   url: /portfolio/
-        
-  # - title: "Posts"
-  #   url: /year-archive/
-    
+  - title: "Services"
+    url: /services/
+
   - title: "CV"
-    url: /cv/
-    
-  # - title: "Guide"
-  #   url: /markdown/
+    url: /CV_Academic.pdf
+
+main_fr:
+  - title: "Publications"
+    url: "https://scholar.google.com/citations?user=2XdDpIgAAAAJ&hl=fr"
+
+  - title: "Médias"
+    url: /fr/medias/
+
+  - title: "Services"
+    url: /fr/services/
+
+  - title: "CV"
+    url: /CV_Academic.pdf
