@@ -1,10 +1,13 @@
 ---
 permalink: /media/
-title: "Media — Léo Boisvert"
+title: "Media appearances and AI commentary"
+seo_title: "AI Media Commentary and Interviews | Léo Boisvert"
+description: "Radio, television, podcast, and digital media appearances by AI safety researcher Léo Boisvert, available for interviews in English and French."
 layout: default
 author_profile: false
 lang: en
 alternate_url: /fr/medias/
+last_modified_at: 2026-07-23
 ---
 
 <main class="media-page" id="main-content">

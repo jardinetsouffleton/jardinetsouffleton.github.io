@@ -1,7 +1,9 @@
 ---
 permalink: /terms/
 title: "Terms and Privacy Policy"
+description: "Terms and privacy information for leo-boisvert.com."
 modified: 2016-06-06
+lang: en
 ---
 
 {% include base_path %}

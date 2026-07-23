@@ -4,6 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/2024-combinatorial-problems
 excerpt: 'Integration of AI and OR Techniques in Constraint Programming (CPAIOR 2024).'
+description: "Research on a generic representation of combinatorial problems for learning-based approaches, presented at CPAIOR 2024."
 date: 2024-04-20
 venue: 'CPAIOR 2024'
 paperurl: 'https://arxiv.org/abs/2403.06026'

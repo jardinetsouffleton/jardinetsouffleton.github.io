@@ -1,8 +1,13 @@
-
+---
+sitemap: false
+permalink: /talkmap/map.html
+---
     <!DOCTYPE html>
-    <html>
+    <html lang="en">
     <head>
-    	<title>Leaflet debug page</title>
+        <title>Talk locations | Léo Boisvert</title>
+        <meta name="description" content="Interactive map of research talks and conference presentations by Léo Boisvert.">
+        <meta name="robots" content="noindex">
 
     	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-beta.2/leaflet.css" />
     	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-beta.2/leaflet.js"></script>
@@ -20,7 +25,7 @@
     	<div id="map"></div>
     	<span>Mouse over a cluster to see the bounds of its children and click a cluster to zoom to those bounds</span>
     	<script type="text/javascript">
-    		var tiles = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+            var tiles = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
               maxZoom: 18,
               attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
                     }),
@@ -42,4 +47,3 @@
     	</script>
     </body>
     </html>
-    

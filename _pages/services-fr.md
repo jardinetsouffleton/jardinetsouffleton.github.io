@@ -1,11 +1,17 @@
 ---
 permalink: /fr/services/
-title: "Conseil et conférences — Léo Boisvert"
+title: "Conseil, formation et conférences en IA"
+seo_title: "Conseil, formation et conférences en évaluation de l’IA | Léo Boisvert"
+description: "Conférences ancrées dans la recherche, formations pratiques et conseil pour les équipes qui évaluent et déploient des modèles de langage et des agents d’IA."
 layout: default
 author_profile: false
 lang: fr
 alternate_url: /services/
+last_modified_at: 2026-07-23
+schema: services
 ---
+
+{% assign services_content = site.data.services[page.lang] %}
 
 <main class="services" id="main-content">
   <header class="services__hero">
@@ -16,47 +22,23 @@ alternate_url: /services/
   </header>
 
   <section class="services__list" aria-label="Services offerts">
-    <article class="service-row">
-      <p class="service-row__index">01</p>
-      <div>
-        <h2>Conférences</h2>
-        <p>Des présentations accessibles et ancrées dans la recherche pour les équipes techniques, les directions, les conférences et le grand public.</p>
-      </div>
-      <ul>
-        <li>Quand l’IA sait qu’on l’évalue</li>
-        <li>Portes dérobées et comportements cachés des modèles de langage</li>
-        <li>Comment évaluer les agents d’IA autonomes</li>
-        <li>Ce que les systèmes d’IA actuels peuvent — et ne peuvent pas — faire</li>
-      </ul>
-    </article>
-
-    <article class="service-row">
-      <p class="service-row__index">02</p>
-      <div>
-        <h2>Formation</h2>
-        <p>Des séances pratiques qui donnent aux équipes un vocabulaire commun, des méthodes concrètes et des prochaines étapes claires.</p>
-      </div>
-      <ul>
-        <li>Concevoir des évaluations utiles et robustes pour les modèles de langage</li>
-        <li>Tester les modèles pour détecter les modes d’échec cachés</li>
-        <li>Construire et évaluer des agents basés sur les modèles de langage</li>
-        <li>Littératie en IA pour les équipes techniques et non techniques</li>
-      </ul>
-    </article>
-
-    <article class="service-row">
-      <p class="service-row__index">03</p>
-      <div>
-        <h2>Conseil</h2>
-        <p>Un accompagnement ciblé pour les décisions techniques et stratégiques importantes concernant les modèles de langage et les agents.</p>
-      </div>
-      <ul>
-        <li>Stratégie d’évaluation et de fiabilité</li>
-        <li>Sécurité des agents et préparation au déploiement</li>
-        <li>Feuilles de route de recherche et conception d’expériences</li>
-        <li>Évaluation indépendante des affirmations et résultats en IA</li>
-      </ul>
-    </article>
+    {% for category in services_content.categories %}
+      <article class="service-row" id="{{ category.id }}">
+        <p class="service-row__index">{{ category.index }}</p>
+        <div>
+          <h2>{{ category.name }}</h2>
+          <p>{{ category.summary }}</p>
+        </div>
+        <ul>
+          {% for topic in category.topics %}
+            <li class="service-topic">
+              <strong>{{ topic.name }}</strong>
+              <span>{{ topic.description }}</span>
+            </li>
+          {% endfor %}
+        </ul>
+      </article>
+    {% endfor %}
   </section>
 
   <section class="services__formats" aria-labelledby="formats-title-fr">
@@ -65,10 +47,24 @@ alternate_url: /services/
       <h2 id="formats-title-fr">Conçu pour votre contexte</h2>
     </div>
     <div class="format-grid">
-      <div><strong>Conférences</strong><span>30 à 60 minutes</span></div>
-      <div><strong>Ateliers</strong><span>Demi-journée ou journée</span></div>
-      <div><strong>Conseil</strong><span>Ponctuel ou continu</span></div>
-      <div><strong>Sur mesure</strong><span>Conçu pour votre équipe</span></div>
+      {% for format in services_content.formats %}
+        <div><strong>{{ format.name }}</strong><span>{{ format.duration }}</span></div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="services__faq" id="faq" aria-labelledby="faq-title-fr">
+    <div class="section-heading">
+      <p class="eyebrow">Questions fréquentes</p>
+      <h2 id="faq-title-fr">À quoi vous attendre</h2>
+    </div>
+    <div class="faq-list">
+      {% for item in services_content.faq %}
+        <article class="faq-item">
+          <h3>{{ item.question }}</h3>
+          <p>{{ item.answer }}</p>
+        </article>
+      {% endfor %}
     </div>
   </section>
 
