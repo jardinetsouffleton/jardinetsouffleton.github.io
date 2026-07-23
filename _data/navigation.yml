@@ -6,7 +6,7 @@
 
 main_en:
   - title: "Publications"
-    url: "https://scholar.google.com/citations?user=2XdDpIgAAAAJ&hl=en"
+    url: "https://scholar.google.com/citations?user=2XdDpIgAAAAJ&amp;hl=en"
 
   - title: "Media"
     url: /media/
@@ -19,7 +19,7 @@ main_en:
 
 main_fr:
   - title: "Publications"
-    url: "https://scholar.google.com/citations?user=2XdDpIgAAAAJ&hl=fr"
+    url: "https://scholar.google.com/citations?user=2XdDpIgAAAAJ&amp;hl=fr"
 
   - title: "Médias"
     url: /fr/medias/

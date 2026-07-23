@@ -1,10 +1,13 @@
 ---
 permalink: /fr/
 title: "Léo Boisvert | Chercheur en sécurité et évaluation de l’IA"
+seo_title: "Léo Boisvert | Chercheur en sécurité et évaluation de l’IA"
+description: "Léo Boisvert étudie la sécurité de l’IA, la conscience de l’évaluation, les portes dérobées et les agents fiables, et conseille les organisations."
 layout: default
 author_profile: false
 lang: fr
 alternate_url: /
+last_modified_at: 2026-07-23
 ---
 
 <main class="home" id="main-content">
@@ -14,7 +17,7 @@ alternate_url: /
       <h1 id="intro-title">Je fais de la recherche en IA et j’aide à la déployer dans le monde réel.</h1>
       <p class="home__lede">Je suis Léo Boisvert, chercheur et conseiller à Montréal. J’étudie les portes dérobées et la conscience de l’évaluation chez les modèles de langage, puis j’aide les organisations à transformer le potentiel de l’IA en systèmes utiles, fiables et adaptés à la pratique.</p>
       <div class="button-row">
-        <a class="button button--primary" href="https://scholar.google.com/citations?user=2XdDpIgAAAAJ&hl=fr" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a>
+        <a class="button button--primary" href="https://scholar.google.com/citations?user=2XdDpIgAAAAJ&amp;hl=fr" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a>
         <a class="button button--quiet" href="/fr/services/">Travailler avec moi <span aria-hidden="true">→</span></a>
       </div>
     </div>
@@ -63,7 +66,7 @@ alternate_url: /
     <div class="section-copy">
       <p>Chez ServiceNow Research, je travaille sur la sécurité et l’évaluation des modèles de langage. J’ai auparavant développé des bancs d’essai et des méthodes d’entraînement pour les agents web, notamment <a href="https://arxiv.org/abs/2407.05291">WorkArena++</a> et l’<a href="https://arxiv.org/abs/2412.05467">écosystème BrowserGym</a>.</p>
       <p>Mes travaux antérieurs touchent l’apprentissage par renforcement, l’optimisation combinatoire et la programmation par contraintes. Une même question les relie : comment savoir si un système se comportera bien lorsque les conditions changent?</p>
-      <p class="inline-links"><a href="https://scholar.google.com/citations?user=2XdDpIgAAAAJ&hl=fr" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a><a href="/fr/medias/">Médias <span aria-hidden="true">→</span></a><a href="/CV_Academic.pdf">CV <span aria-hidden="true">→</span></a></p>
+      <p class="inline-links"><a href="https://scholar.google.com/citations?user=2XdDpIgAAAAJ&amp;hl=fr" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a><a href="/fr/medias/">Médias <span aria-hidden="true">→</span></a><a href="/CV_Academic.pdf">CV <span aria-hidden="true">→</span></a></p>
     </div>
   </section>
 

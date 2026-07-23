@@ -1,5 +1,6 @@
 ---
 title: "Teaching assistant - INF 6102 Metaheuristics"
+description: "Teaching experience for the graduate INF 6102 Metaheuristics course at Polytechnique Montréal."
 collection: teaching
 type: "TA"
 permalink: /teaching/2023-winter-ta-metaheuristics

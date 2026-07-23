@@ -1,10 +1,13 @@
 ---
 permalink: /fr/medias/
-title: "Médias — Léo Boisvert"
+title: "Présences médiatiques et commentaires sur l’IA"
+seo_title: "Commentaires et entrevues sur l’IA | Léo Boisvert"
+description: "Présences à la radio, à la télévision, en balado et dans les médias numériques de Léo Boisvert, chercheur en sécurité de l’IA."
 layout: default
 author_profile: false
 lang: fr
 alternate_url: /media/
+last_modified_at: 2026-07-23
 ---
 
 <main class="media-page" id="main-content">

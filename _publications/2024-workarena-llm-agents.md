@@ -4,6 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/2024-workarena-llm-agents
 excerpt: 'ICLR 2024 Workshop on Large Language Model (LLM) Agents.'
+description: "The WorkArena research paper evaluates how well language-model agents solve common knowledge-work tasks in realistic enterprise settings."
 date: 2024-02-12
 venue: 'ICLR 2024 Workshop on LLM Agents'
 paperurl: 'https://arxiv.org/abs/2403.07718'

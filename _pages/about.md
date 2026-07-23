@@ -1,10 +1,13 @@
 ---
 permalink: /
 title: "Léo Boisvert | AI safety and evaluation researcher"
+seo_title: "Léo Boisvert | AI Safety and Evaluation Researcher"
+description: "Léo Boisvert researches AI safety, evaluation awareness, backdoors, and reliable language-model agents, and advises organizations working with AI."
 layout: default
 author_profile: false
 lang: en
 alternate_url: /fr/
+last_modified_at: 2026-07-23
 redirect_from:
   - /about/
   - /about.html
@@ -17,7 +20,7 @@ redirect_from:
       <h1 id="intro-title">I research AI and help put it to work in the real world.</h1>
       <p class="home__lede">I’m Léo Boisvert, a researcher and advisor in Montréal. I study backdoors and evaluation awareness in language models, then help organizations turn AI’s potential into systems that are useful, reliable, and ready for practice.</p>
       <div class="button-row">
-        <a class="button button--primary" href="https://scholar.google.com/citations?user=2XdDpIgAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a>
+        <a class="button button--primary" href="https://scholar.google.com/citations?user=2XdDpIgAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a>
         <a class="button button--quiet" href="/services/">Work with me <span aria-hidden="true">→</span></a>
       </div>
     </div>
@@ -57,8 +60,6 @@ redirect_from:
       <a class="text-link" href="/services/">Explore services <span aria-hidden="true">→</span></a>
     </aside>
   </section>
-    </div>
-  </section>
 
   <section class="home__section home__section--split" aria-labelledby="background-title">
     <div class="section-heading">
@@ -68,7 +69,7 @@ redirect_from:
     <div class="section-copy">
       <p>At ServiceNow Research, I work on the safety and evaluation of language models. I previously developed benchmarks and training methods for web agents, including <a href="https://arxiv.org/abs/2407.05291">WorkArena++</a> and the <a href="https://arxiv.org/abs/2412.05467">BrowserGym ecosystem</a>.</p>
       <p>My earlier work spans reinforcement learning, combinatorial optimization, and constraint programming. Across these areas, the recurring question is the same: how do we know a system will behave well when the conditions change?</p>
-      <p class="inline-links"><a href="https://scholar.google.com/citations?user=2XdDpIgAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a><a href="/media/">Media <span aria-hidden="true">→</span></a><a href="/CV_Academic.pdf">CV <span aria-hidden="true">→</span></a></p>
+      <p class="inline-links"><a href="https://scholar.google.com/citations?user=2XdDpIgAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a><a href="/media/">Media <span aria-hidden="true">→</span></a><a href="/CV_Academic.pdf">CV <span aria-hidden="true">→</span></a></p>
     </div>
   </section>
 

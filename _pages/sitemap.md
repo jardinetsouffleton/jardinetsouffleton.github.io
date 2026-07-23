@@ -1,8 +1,10 @@
 ---
 layout: archive
 title: "Sitemap"
+description: "Browse the public pages, publications, teaching, and other content on Léo Boisvert’s website."
 permalink: /sitemap/
 author_profile: true
+lang: en
 ---
 
 {% include base_path %}
